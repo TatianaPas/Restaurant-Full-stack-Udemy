@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kfShbrqhJw/v01eHDw7rxaCKlqeYCRHf8aCBPgnmwZoZhnm2Q7nWq0whLzji07v/69fZG3JhQgGSBprL+h3mxw==",
+  "dgSpecHash": "xe4cM5aNw8FWDVtOe8/ApwjWUgSBwcSEmywqadmASXsUDUd0W37M1siKhwt/2W9veQpyCqXZU9ZuDpbVHorKlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\UdemyRestaurantProject\\UdemyRestaurantProject\\UdemyRestaurantProject.csproj",
+  "projectFilePath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\UdemyRestaurantProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tatja\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tatja\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
