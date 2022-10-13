@@ -2,7 +2,7 @@
 @model UdemyRestaurantProject.Pages.Admin.FoodTypes.EditModel
 
 <form method="post">
-    <input hidden asp-for="FoodType.Id" />
+    <input hidden asp-for="FoodT.Id" />
     <div class="border p-3 mt-4">
         <div class="row pb-2">
         <h2 class="text-primary pl-3">Update Food Type</h2>
@@ -10,9 +10,9 @@
     </div>
     <div asp-validation-summary="All"></div>
     <div class="mb-3">
-        <label asp-for="FoodType.Name"></label>
-        <input asp-for="@Model.FoodType.Name" class="form-control"/>
-        <span asp-validation-for="FoodType.Name" class="text-danger"></span>
+        <label asp-for="FoodT.Name"></label>
+        <input asp-for="@Model.FoodT.Name" class="form-control"/>
+        <span asp-validation-for="FoodT.Name" class="text-danger"></span>
     </div>    
     <button type="submit" class="btn btn-primary" style="width:200px">Update</button>
     <a asp-page="Index" class="btn btn-secondary" style="width:200px">Back to Food Types</a>

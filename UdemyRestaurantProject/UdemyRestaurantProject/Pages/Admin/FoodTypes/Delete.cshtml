@@ -2,15 +2,15 @@
 @model UdemyRestaurantProject.Pages.Admin.FoodTypes.DeleteModel
 
 <form method="post">
-    <input hidden asp-for="FoodType.Id" />
+    <input hidden asp-for="FoodT.Id" />
     <div class="border p-3 mt-4">
         <div class="row pb-2">
         <h2 class="text-primary pl-3">Delete Category</h2>
         <hr />
     </div>
     <div class="mb-3">
-        <label asp-for="FoodType.Name"></label>
-        <input asp-for="@Model.FoodType.Name" disabled class="form-control"/>
+        <label asp-for="FoodT.Name"></label>
+        <input asp-for="@Model.FoodT.Name" disabled class="form-control"/>
 
     </div>
     

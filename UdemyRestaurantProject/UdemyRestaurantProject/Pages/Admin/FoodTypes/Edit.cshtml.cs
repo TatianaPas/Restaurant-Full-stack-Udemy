@@ -1,32 +1,32 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Data;
+using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
 
 namespace UdemyRestaurantProject.Pages.Admin.FoodTypes
 {
+    [BindProperties]
     public class EditModel : PageModel
     {
-        private readonly RestaurantDbContext _db;
-        [BindProperty]
+        private readonly IUnitOfWork _unitOfWork;
 
-        public FoodType FoodType { get; set; }
-
-        public EditModel(RestaurantDbContext db)
+        public FoodType FoodT { get; set; }
+        public EditModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public void OnGet(int id)
         {
-            FoodType = _db.RestaurantFoodType.Find(id);
+            FoodT = _unitOfWork.FoodType.GetFirstOrDefault(u=>u.Id==id);
         }
 
         public async Task<IActionResult> OnPost()
         {           
             if (ModelState.IsValid)
             {
-                _db.RestaurantFoodType.Update(FoodType);
-                await _db.SaveChangesAsync();
+                _unitOfWork.FoodType.Update(FoodT);
+                _unitOfWork.Save();
                 TempData["success"] = "Food Type updated sucessfully";
                 return RedirectToPage("Index");
             }

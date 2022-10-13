@@ -1,21 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Data;
+using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
 
 namespace UdemyRestaurantProject.Pages.Admin.Categories
 {
+    [BindProperties]
     public class CreateModel : PageModel
     {
-        private readonly RestaurantDbContext _db;
-        [BindProperty]
-
+        private readonly IUnitOfWork _unitOfWork;
         public Category Category { get; set; }
-
-        public CreateModel(RestaurantDbContext db)
+        public CreateModel( IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
+       
         public void OnGet()
         {
         }
@@ -28,8 +28,8 @@ namespace UdemyRestaurantProject.Pages.Admin.Categories
             }
             if (ModelState.IsValid)
             {
-                await _db.RestaurantCategory.AddAsync(Category);
-                await _db.SaveChangesAsync();
+                _unitOfWork.Category.Add(Category);
+                _unitOfWork.Save();
                 TempData["success"] = "Category created sucessfully";
                 return RedirectToPage("Index");
             }

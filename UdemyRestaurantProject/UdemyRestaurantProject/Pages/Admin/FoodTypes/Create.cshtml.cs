@@ -1,20 +1,20 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Data;
+using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
 
 namespace UdemyRestaurantProject.Pages.Admin.FoodTypes
 {
+    [BindProperties]
     public class CreateModel : PageModel
     {
-        private readonly RestaurantDbContext _db;
-        [BindProperty]
+        private readonly IUnitOfWork _unitOfWork;
 
-        public FoodType FoodType { get; set; }
-
-        public CreateModel(RestaurantDbContext db)
+        public FoodType FoodT { get; set; }
+        public CreateModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
         public void OnGet()
         {
@@ -24,8 +24,8 @@ namespace UdemyRestaurantProject.Pages.Admin.FoodTypes
         {           
             if (ModelState.IsValid)
             {
-                await _db.RestaurantFoodType.AddAsync(FoodType);
-                await _db.SaveChangesAsync();
+                _unitOfWork.FoodType.Add(FoodT);
+                _unitOfWork.Save();
                 TempData["success"] = "Food Type created sucessfully";
                 return RedirectToPage("Index");
             }

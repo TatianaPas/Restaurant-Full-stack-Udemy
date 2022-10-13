@@ -1,23 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Data;
+using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
 
 namespace UdemyRestaurantProject.Pages.Admin.Categories
 {
     public class IndexModel : PageModel
     {
-        private readonly RestaurantDbContext _db;
-        public IEnumerable<Category> Categories { get; set; }
+        private readonly IUnitOfWork _unitOfWork;
 
-        public IndexModel(RestaurantDbContext db)
+        public IEnumerable<Category> Categories { get; set; }
+        public IndexModel(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            _unitOfWork = unitOfWork;
         }
 
         public void OnGet()
         {
-            Categories = _db.RestaurantCategory;
+            Categories = _unitOfWork.Category.GetAll();
         }
     }
 }
