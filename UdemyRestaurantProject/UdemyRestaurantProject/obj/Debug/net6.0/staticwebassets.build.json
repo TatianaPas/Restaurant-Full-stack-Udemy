@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oHoB72SkQmGjAwI3GrXBInk2MHM1kFXPDTA7t0nwvIQ=",
+  "Hash": "XdIBIQSooWQeqTJFDe9PTbKT+CjIDKsTbbwwQhu23dI=",
   "Source": "UdemyRestaurantProject",
   "BasePath": "_content/UdemyRestaurantProject",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\UdemyRestaurantProject.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\css\\bootwatch_style.css",
+      "SourceId": "UdemyRestaurantProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\",
+      "BasePath": "_content/UdemyRestaurantProject",
+      "RelativePath": "css/bootwatch_style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootwatch_style.css"
     },
     {
       "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\css\\site.css",
