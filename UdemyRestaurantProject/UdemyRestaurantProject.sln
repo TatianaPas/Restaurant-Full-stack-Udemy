@@ -5,6 +5,12 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdemyRestaurantProject", "UdemyRestaurantProject\UdemyRestaurantProject.csproj", "{B0E0B66D-C23E-4171-95BB-4FBF1AADDDBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.DataAccess", "Restaurant.DataAccess\Restaurant.DataAccess.csproj", "{ACD954F1-EC5B-490F-AC6A-B827FE705135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Models", "Restaurant.Models\Restaurant.Models.csproj", "{8E02AEAC-2F8F-4BF5-B9B7-09E6AE5176A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant.Utilities", "Restaurant.Utilities\Restaurant.Utilities.csproj", "{B5A725B4-F799-4C2C-809A-EB94BC3025D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{B0E0B66D-C23E-4171-95BB-4FBF1AADDDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0E0B66D-C23E-4171-95BB-4FBF1AADDDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0E0B66D-C23E-4171-95BB-4FBF1AADDDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD954F1-EC5B-490F-AC6A-B827FE705135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD954F1-EC5B-490F-AC6A-B827FE705135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD954F1-EC5B-490F-AC6A-B827FE705135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD954F1-EC5B-490F-AC6A-B827FE705135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E02AEAC-2F8F-4BF5-B9B7-09E6AE5176A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E02AEAC-2F8F-4BF5-B9B7-09E6AE5176A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E02AEAC-2F8F-4BF5-B9B7-09E6AE5176A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E02AEAC-2F8F-4BF5-B9B7-09E6AE5176A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A725B4-F799-4C2C-809A-EB94BC3025D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A725B4-F799-4C2C-809A-EB94BC3025D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A725B4-F799-4C2C-809A-EB94BC3025D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A725B4-F799-4C2C-809A-EB94BC3025D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

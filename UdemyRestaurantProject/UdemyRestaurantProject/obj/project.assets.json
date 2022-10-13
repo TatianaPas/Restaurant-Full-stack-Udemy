@@ -3050,6 +3050,31 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Restaurant.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "Restaurant.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Restaurant.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.DataAccess.dll": {}
+        }
+      },
+      "Restaurant.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Restaurant.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Restaurant.Models.dll": {}
+        }
       }
     }
   },
@@ -9425,6 +9450,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Restaurant.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.DataAccess/Restaurant.DataAccess.csproj",
+      "msbuildProject": "../Restaurant.DataAccess/Restaurant.DataAccess.csproj"
+    },
+    "Restaurant.Models/1.0.0": {
+      "type": "project",
+      "path": "../Restaurant.Models/Restaurant.Models.csproj",
+      "msbuildProject": "../Restaurant.Models/Restaurant.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9433,7 +9468,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
+      "Restaurant.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9467,7 +9503,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
