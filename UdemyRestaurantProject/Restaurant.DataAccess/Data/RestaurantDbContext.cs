@@ -11,5 +11,6 @@ namespace Restaurant.DataAccess.Data
         }
         public DbSet<Category> RestaurantCategory { get; set; }
         public DbSet<FoodType> RestaurantFoodType { get; set; }
+        public DbSet<MenuItem> RestaurantMenuItem { get; set; }
     }
 }
