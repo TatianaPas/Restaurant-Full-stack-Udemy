@@ -327,3 +327,5 @@ C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-U
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Models.dll
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.DataAccess.pdb
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Models.pdb
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\wwwroot\images\menuItems\533c03be-e7b5-42ec-9dce-9b108067b2f3.jpeg
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\wwwroot\images\menuItems\ed3ad4b2-6a5e-4fcb-9c33-9e63373aec1c.jpeg

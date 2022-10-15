@@ -29,4 +29,13 @@
     <Folder Include="wwwroot\images\menuItems\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\images\menuItems\533c03be-e7b5-42ec-9dce-9b108067b2f3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Update="wwwroot\images\menuItems\ed3ad4b2-6a5e-4fcb-9c33-9e63373aec1c.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
