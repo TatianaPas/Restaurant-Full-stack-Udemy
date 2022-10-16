@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "l680IqhZ5ofLkpFzVEVrtpvWhv8Y2nC5YztaFYhNXuQ=",
+  "Hash": "g/desYyxHKDOJ+uVZKNb5LZIuEDRxl1YSE2bXEZs7i8=",
   "Source": "UdemyRestaurantProject",
   "BasePath": "_content/UdemyRestaurantProject",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\menuItems\\62064eb3-8bd5-4371-b4ec-73ec34a5f74c.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\images\\menuItems\\6712a7e2-69f0-4983-b48d-0ceb62c6e698.jpeg",
+      "SourceId": "UdemyRestaurantProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\",
+      "BasePath": "_content/UdemyRestaurantProject",
+      "RelativePath": "images/menuItems/6712a7e2-69f0-4983-b48d-0ceb62c6e698.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\6712a7e2-69f0-4983-b48d-0ceb62c6e698.jpeg"
     },
     {
       "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\images\\menuItems\\74c47eca-e861-436e-a18b-3f6d1d43b4ad.jpeg",
