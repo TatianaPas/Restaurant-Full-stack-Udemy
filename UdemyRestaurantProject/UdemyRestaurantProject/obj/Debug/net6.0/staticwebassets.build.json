@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4szjy9CceaVZMEdQnRfWggZ4h4Yz2ajstzpmX/Nfdrg=",
+  "Hash": "KPil8c71b+y1nQxY4ck+xw83b2kFwaitQtSDh4SuE6M=",
   "Source": "UdemyRestaurantProject",
   "BasePath": "_content/UdemyRestaurantProject",
   "Mode": "Default",
@@ -119,21 +119,21 @@
       "OriginalItemSpec": "wwwroot\\images\\menuItems\\533c03be-e7b5-42ec-9dce-9b108067b2f3.jpeg"
     },
     {
-      "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\images\\menuItems\\ed3ad4b2-6a5e-4fcb-9c33-9e63373aec1c.jpeg",
+      "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\images\\menuItems\\f85fd503-a466-4cb0-a7cc-c60282d03a52.jpeg",
       "SourceId": "UdemyRestaurantProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\",
       "BasePath": "_content/UdemyRestaurantProject",
-      "RelativePath": "images/menuItems/ed3ad4b2-6a5e-4fcb-9c33-9e63373aec1c.jpeg",
+      "RelativePath": "images/menuItems/f85fd503-a466-4cb0-a7cc-c60282d03a52.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Always",
+      "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\menuItems\\ed3ad4b2-6a5e-4fcb-9c33-9e63373aec1c.jpeg"
+      "OriginalItemSpec": "wwwroot\\images\\menuItems\\f85fd503-a466-4cb0-a7cc-c60282d03a52.jpeg"
     },
     {
       "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\js\\MenuItem.js",
