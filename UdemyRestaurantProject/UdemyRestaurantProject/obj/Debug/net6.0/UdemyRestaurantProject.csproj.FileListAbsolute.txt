@@ -327,3 +327,13 @@ C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-U
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Models.dll
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.DataAccess.pdb
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Models.pdb
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\obj\Debug\net6.0\UdemyRestaurantProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Utility.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Utility.pdb
