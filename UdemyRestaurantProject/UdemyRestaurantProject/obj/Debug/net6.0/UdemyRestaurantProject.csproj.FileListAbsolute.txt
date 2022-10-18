@@ -337,3 +337,5 @@ C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-U
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\obj\Debug\net6.0\UdemyRestaurantProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Utility.dll
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Restaurant.Utility.pdb
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll

@@ -1,11 +1,14 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
 using System.ComponentModel.DataAnnotations;
+using System.Security.Claims;
 
 namespace UdemyRestaurantProject.Pages.Customer.Home
 {
+    [Authorize]
     public class DetailsModel : PageModel
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -14,13 +17,51 @@ namespace UdemyRestaurantProject.Pages.Customer.Home
         {
             _unitOfWork = unitOfWork;
         }
-        public MenuItem MenuItem { get; set; }
-        [Range(1,20,ErrorMessage="Please select up to 20 items")]
-        public int Count { get; set; }
+        [BindProperty]
+        public ShoppingCart ShoppingCart { get; set; }
+
 
         public void OnGet(int id)
         {
-            MenuItem = _unitOfWork.MenuItem.GetFirstOrDefault(u => u.Id == id, includeProperties:"Category,FoodType");
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+
+            ShoppingCart = new()
+            {
+                ApplicationUserId = claim.Value,
+                MenuItem = _unitOfWork.MenuItem.GetFirstOrDefault(u => u.Id == id, includeProperties: "Category,FoodType"),
+                MenuItemId = id
+            };
+
         }
+
+        public IActionResult OnPost()
+        {
+            if(ModelState.IsValid)
+            {
+                ShoppingCart shoppingCartFromDb = _unitOfWork.ShoppingCart.GetFirstOrDefault(
+                   filter: u => u.ApplicationUserId == ShoppingCart.ApplicationUserId && 
+                    u.MenuItemId==ShoppingCart.MenuItemId);
+
+                if (shoppingCartFromDb==null)
+                {
+                    _unitOfWork.ShoppingCart.Add(ShoppingCart);
+                    _unitOfWork.Save();
+                } else
+                {
+                    _unitOfWork.ShoppingCart.IncrementCount(shoppingCartFromDb, ShoppingCart.Count);
+                }
+
+
+                
+                return RedirectToPagePermanent("Index");
+            }
+            return Page();
+            
+        }
+
     }
+
+
 }
+
