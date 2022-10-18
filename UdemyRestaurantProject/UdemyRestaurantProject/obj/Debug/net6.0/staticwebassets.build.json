@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uzy/CpOKJpGQSHmyXjmp2vfkHgcDC6xNceKaLX5AhJ0=",
+  "Hash": "uxQROdXEmM3Ue9bXKr3aiOmbyjmTpdPNSAkBl3GKbo8=",
   "Source": "UdemyRestaurantProject",
   "BasePath": "_content/UdemyRestaurantProject",
   "Mode": "Default",
@@ -1307,6 +1307,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\menuItems\\fb254358-0397-4fa3-a251-5bbc2dcab80c.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\images\\thankyou.png",
+      "SourceId": "UdemyRestaurantProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\",
+      "BasePath": "_content/UdemyRestaurantProject",
+      "RelativePath": "images/thankyou.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\thankyou.png"
     },
     {
       "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\js\\MenuItem.js",
