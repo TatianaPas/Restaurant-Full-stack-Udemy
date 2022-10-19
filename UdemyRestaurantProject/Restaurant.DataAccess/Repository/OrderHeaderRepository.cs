@@ -27,5 +27,14 @@ namespace Restaurant.DataAccess.Repository
             _db.OrderHeader.Update(orderHeader);
 
         }
+
+        public void UpdateStatus(int id, string status)
+        {
+            var orderFromDb=_db.OrderHeader.FirstOrDefault(x => x.Id == id);
+            if(orderFromDb != null)
+            {
+                orderFromDb.Status = status;
+            }
+        }
     }
 }

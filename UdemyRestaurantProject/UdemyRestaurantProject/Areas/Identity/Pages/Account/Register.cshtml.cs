@@ -140,7 +140,7 @@ namespace UdemyRestaurantProject.Areas.Identity.Pages.Account
                 }
                 if (result.Succeeded)
                 {
-                    string role = Request.Form["rdUserRole"].ToString();
+                    string role = Request.Form["rdUserRoles"].ToString();
                     if(role ==SD.KitcheRole)
                     {
                         await _userManager.AddToRoleAsync(user, SD.KitcheRole);

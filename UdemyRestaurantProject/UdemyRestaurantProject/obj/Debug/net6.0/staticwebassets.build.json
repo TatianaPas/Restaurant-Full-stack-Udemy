@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uxQROdXEmM3Ue9bXKr3aiOmbyjmTpdPNSAkBl3GKbo8=",
+  "Hash": "0s246bJRkXyE4zfwgo69AD8aNVIoCUz/PuoCKzEEeTw=",
   "Source": "UdemyRestaurantProject",
   "BasePath": "_content/UdemyRestaurantProject",
   "Mode": "Default",
@@ -1341,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\MenuItem.js"
+    },
+    {
+      "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\js\\orderList.js",
+      "SourceId": "UdemyRestaurantProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\",
+      "BasePath": "_content/UdemyRestaurantProject",
+      "RelativePath": "js/orderList.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orderList.js"
     },
     {
       "Identity": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\wwwroot\\js\\site.js",
