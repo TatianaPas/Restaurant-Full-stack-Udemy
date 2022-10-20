@@ -5,8 +5,15 @@
 @{
     ViewData["Title"] = "Register";
 }
+@if (User.IsInRole(SD.ManagerRole))
+{
+    <h1>Register Employee</h1>
+}
 
-<h1>@ViewData["Title"]</h1>
+else
+{
+   <h1>@ViewData["Title"]</h1> 
+}
 
 <div class="row">
     <div class="col-md-4">
@@ -39,15 +46,21 @@
                 <label asp-for="Input.ConfirmPassword"></label>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
+
+            @if (User.IsInRole(SD.ManagerRole))
+            {
              <div class="form-floating my-2">
                 <input type="radio" name="rdUserRoles" value="@SD.ManagerRole"/>@SD.ManagerRole
                 <input type="radio" name="rdUserRoles" value="@SD.KitcheRole"/>@SD.KitcheRole
                 <input type="radio" name="rdUserRoles" value="@SD.FrontDeskRole"/>@SD.FrontDeskRole
             </div>
+            }
             <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
         </form>
     </div>
-    <div class="col-md-6 col-md-offset-2">
+   @* not using external login in this project
+
+       <div class="col-md-6 col-md-offset-2">
         <section>
             <h3>Use another service to register.</h3>
             <hr />
@@ -76,7 +89,7 @@
                 }
             }
         </section>
-    </div>
+    </div>*@
 </div>
 
 @section Scripts {
