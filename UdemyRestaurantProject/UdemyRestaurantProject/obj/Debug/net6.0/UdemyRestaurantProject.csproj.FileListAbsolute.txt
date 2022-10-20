@@ -340,3 +340,6 @@ C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-U
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\MailKit.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\MimeKit.dll
+C:\Users\tatja\OneDrive\Desktop\Udemy restaurant project\Restaurant-Full-stack-Udemy\UdemyRestaurantProject\UdemyRestaurantProject\bin\Debug\net6.0\BouncyCastle.Crypto.dll
