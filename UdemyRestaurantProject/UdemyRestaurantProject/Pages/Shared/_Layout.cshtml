@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using Restaurant.Utilities
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -8,9 +9,9 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/UdemyRestaurantProject.styles.css" asp-append-version="true" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="//cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
-    
+
 </head>
 <body>
     <header>
@@ -25,29 +26,36 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>   
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Order/OrderList">Order List</a>
-                        </li> 
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Admin/Order/ManageOrder">Manage Orders</a>
-                        </li> 
+                        </li>
                         <li class="nav-item dropdown">
-          <a class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Admin</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item text-dark" asp-area="" asp-page="/Admin/Categories/Index">Categories</a>
-            <a class="dropdown-item text-dark" asp-area="" asp-page="/Admin/FoodTypes/Index">Food Type</a>
-            <a class="dropdown-item text-dark" asp-area="" asp-page="/Admin/MenuItems/Index">Menu</a>
-            <div class="dropdown-divider"></div>
+                            <a class="nav-link text-dark dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Admin</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item text-dark" asp-area="" asp-page="/Admin/Categories/Index">Categories</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-page="/Admin/FoodTypes/Index">Food Type</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-page="/Admin/MenuItems/Index">Menu</a>
+                                <div class="dropdown-divider"></div>
 
-          </div>
-        </li>
-        <li>
-            <a class="nav-link text-dark" asp-area="" asp-page="/Customer/Cart/Index"><i class="bi bi-cart-fill"></i></a>
-        </li>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Customer/Cart/Index">
+                                @await Component.InvokeAsync("ShoppingCart")
+                            </a>
+                        </li>
+
+
+                        <li>
+
+
                     </ul>
-                    <partial name="_LoginPartial"/>
-                  
+                    <partial name="_LoginPartial" />
+
                 </div>
             </div>
         </nav>
@@ -66,7 +74,7 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://cdn.tiny.cloud/1/pi8u7gorh3bgnvm6qj255yphl0347pl2e0jdz2ihu7i0mer8/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <script src="//cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>

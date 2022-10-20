@@ -21,5 +21,7 @@ namespace Restaurant.Utilities
         public const string StatusCompleted = "Completed";
         public const string StatusCancelled = "Cancelled";
         public const string StatusRefunded = "Refunded";
+
+        public const string SessisonCart = "SessisonCart";
     }
 }

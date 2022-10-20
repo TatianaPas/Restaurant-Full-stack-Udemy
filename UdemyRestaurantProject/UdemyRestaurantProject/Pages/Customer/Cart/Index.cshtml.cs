@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
+using Restaurant.Utilities;
 using System.Collections;
 using System.Security.Claims;
 
@@ -46,20 +47,29 @@ namespace UdemyRestaurantProject.Pages.Customer.Cart
         public IActionResult OnPostMinus(int cartId)
         {
             var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
-            if(cart.Count==1)
+            if (cart.Count == 1)
             {
+                var count = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == cart.ApplicationUserId).ToList().Count - 1;
                 _unitOfWork.ShoppingCart.Remove(cart);
                 _unitOfWork.Save();
-                return RedirectToPage("/Customer/Cart/Index");
+                HttpContext.Session.SetInt32(SD.SessisonCart, count);
             }
-            _unitOfWork.ShoppingCart.DecrementCount(cart, 1);
+            else
+            {
+                _unitOfWork.ShoppingCart.DecrementCount(cart, 1);
+            }
+            
             return RedirectToPage("/Customer/Cart/Index");
         }
         public IActionResult OnPostRemove(int cartId)
         {
             var cart = _unitOfWork.ShoppingCart.GetFirstOrDefault(u => u.Id == cartId);
+
+            var count = _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == cart.ApplicationUserId).ToList().Count-1;
+
             _unitOfWork.ShoppingCart.Remove(cart);
             _unitOfWork.Save();
+            HttpContext.Session.SetInt32(SD.SessisonCart, count);
             return RedirectToPage("/Customer/Cart/Index");
         }
     }

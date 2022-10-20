@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Restaurant.DataAccess.Repository.IRepository;
 using Restaurant.Models;
+using Restaurant.Utilities;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 
@@ -47,13 +48,13 @@ namespace UdemyRestaurantProject.Pages.Customer.Home
                 {
                     _unitOfWork.ShoppingCart.Add(ShoppingCart);
                     _unitOfWork.Save();
+                    HttpContext.Session.SetInt32(SD.SessisonCart, _unitOfWork.ShoppingCart.GetAll(
+                        u => u.ApplicationUserId == ShoppingCart.ApplicationUserId).ToList().Count);
                 } else
                 {
                     _unitOfWork.ShoppingCart.IncrementCount(shoppingCartFromDb, ShoppingCart.Count);
                 }
 
-
-                
                 return RedirectToPagePermanent("Index");
             }
             return Page();
