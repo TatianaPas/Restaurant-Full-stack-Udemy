@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XfiiTyRFAEfmniUtLbbXPwQB9PVkUkjAIwH6nqUF+38cBAe8g/rNHIfURCcaL53e7tL/chPQvLe7ChMG2B7ufQ==",
+  "dgSpecHash": "9Nko6oIrm+IIZXh7u3FMZAYMkrMRJqvoweX4p7NdzI/SturSJ41nxA+VVNUZsS3tkwG7nCiJ1JuxepvXx6NaSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
+  "projectFilePath": "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tatja\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\tatja\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

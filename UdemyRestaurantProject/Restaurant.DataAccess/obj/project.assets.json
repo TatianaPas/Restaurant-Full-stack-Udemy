@@ -10354,11 +10354,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
+      "projectUniqueName": "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
       "projectName": "Restaurant.DataAccess",
-      "projectPath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
+      "projectPath": "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\Restaurant.DataAccess.csproj",
       "packagesPath": "C:\\Users\\tatja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\obj\\",
+      "outputPath": "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10379,8 +10379,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
-              "projectPath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj"
+            "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj": {
+              "projectPath": "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\Restaurant.Models\\Restaurant.Models.csproj"
             }
           }
         }

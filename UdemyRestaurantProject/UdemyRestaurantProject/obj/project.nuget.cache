@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOIIe5lxILnf3bk5sDoWK51HiLrNGkm/dgeCG7TiIKzzGuY+WONk5GcGKl5DQFwSkPc4dvuT5SGk2XhgDmGxsA==",
+  "dgSpecHash": "E1x3Hk8yhXZ07CWeIv5UMVp/Uxmk1qFpcUWldVMFJ3pxJ58csgef82IBxs/urp9TyAGP1r3pm4G/o23waw7kDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tatja\\OneDrive\\Desktop\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\UdemyRestaurantProject.csproj",
+  "projectFilePath": "C:\\Udemy restaurant project\\Restaurant-Full-stack-Udemy\\UdemyRestaurantProject\\UdemyRestaurantProject\\UdemyRestaurantProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tatja\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tatja\\.nuget\\packages\\mailkit\\3.4.1\\mailkit.3.4.1.nupkg.sha512",
